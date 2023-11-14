@@ -1,0 +1,841 @@
+Build output check failed:
+    Regex: 'command[- ]line option .* is valid for .* but not for C'
+    Output line: 'cc1.exe: warning: command line option '-Wnon-virtual-dtor' is valid for C++/ObjC++ but not for C'
+Compilation failed:
+    source file: 'C:/opencv/CMakeFiles/CMakeTmp/src.c'
+    check option: ' -fsigned-char -W -Wall -Wreturn-type  -Wnon-virtual-dtor'
+===== BUILD LOG =====
+Change Dir: 'C:/opencv/CMakeFiles/CMakeTmp'
+
+Run Build Command(s): "C:/Program Files/CMake/bin/cmake.exe" -E env VERBOSE=1 C:/mingw64/bin/mingw32-make.exe -f Makefile cmTC_4a690/fast
+C:/mingw64/bin/mingw32-make.exe  -f CMakeFiles\cmTC_4a690.dir\build.make CMakeFiles/cmTC_4a690.dir/build
+mingw32-make.exe[1]: Entering directory 'C:/opencv/CMakeFiles/CMakeTmp'
+Failed to create ConsoleBuf!
+setActiveInputCodepage failed!
+Failed to create ConsoleBuf!
+setActiveInputCodepage failed!
+Building C object CMakeFiles/cmTC_4a690.dir/src.c.obj
+C:\mingw64\bin\gcc.exe   -O3 -DNDEBUG    -fsigned-char -W -Wall -Wreturn-type  -Wnon-virtual-dtor -o CMakeFiles\cmTC_4a690.dir\src.c.obj -c C:\opencv\CMakeFiles\CMakeTmp\src.c
+cc1.exe: warning: command line option '-Wnon-virtual-dtor' is valid for C++/ObjC++ but not for C
+C:\opencv\CMakeFiles\CMakeTmp\src.c:1: warning: ignoring #pragma   [-Wunknown-pragmas]
+ #pragma
+ 
+Failed to create ConsoleBuf!
+setActiveInputCodepage failed!
+Failed to create ConsoleBuf!
+setActiveInputCodepage failed!
+Linking C executable cmTC_4a690.exe
+"C:\Program Files\CMake\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_4a690.dir\link.txt --verbose=1
+Failed to create ConsoleBuf!
+setActiveInputCodepage failed!
+Failed to create ConsoleBuf!
+setActiveInputCodepage failed!
+"C:\Program Files\CMake\bin\cmake.exe" -E rm -f CMakeFiles\cmTC_4a690.dir/objects.a
+C:\mingw64\bin\ar.exe qc CMakeFiles\cmTC_4a690.dir/objects.a @CMakeFiles\cmTC_4a690.dir\objects1.rsp
+C:\mingw64\bin\gcc.exe -O3 -DNDEBUG -Wl,--whole-archive CMakeFiles\cmTC_4a690.dir/objects.a -Wl,--no-whole-archive -o cmTC_4a690.exe -Wl,--out-implib,libcmTC_4a690.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_4a690.dir\linkLibs.rsp
+mingw32-make.exe[1]: Leaving directory 'C:/opencv/CMakeFiles/CMakeTmp'
+
+
+===== END =====
+
+Build output check failed:
+    Regex: 'command[- ]line option .* is valid for .* but not for C\+\+'
+    Output line: 'cc1plus.exe: warning: command line option '-Wmissing-prototypes' is valid for C/ObjC but not for C++'
+Compilation failed:
+    source file: 'C:/opencv/CMakeFiles/CMakeTmp/src.cxx'
+    check option: ' -fsigned-char -W -Wall -Wreturn-type -Wnon-virtual-dtor -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations  -Wmissing-prototypes'
+===== BUILD LOG =====
+Change Dir: 'C:/opencv/CMakeFiles/CMakeTmp'
+
+Run Build Command(s): "C:/Program Files/CMake/bin/cmake.exe" -E env VERBOSE=1 C:/mingw64/bin/mingw32-make.exe -f Makefile cmTC_52454/fast
+C:/mingw64/bin/mingw32-make.exe  -f CMakeFiles\cmTC_52454.dir\build.make CMakeFiles/cmTC_52454.dir/build
+mingw32-make.exe[1]: Entering directory 'C:/opencv/CMakeFiles/CMakeTmp'
+Failed to create ConsoleBuf!
+setActiveInputCodepage failed!
+Failed to create ConsoleBuf!
+setActiveInputCodepage failed!
+Building CXX object CMakeFiles/cmTC_52454.dir/src.cxx.obj
+C:\mingw64\bin\c++.exe   -O3 -DNDEBUG -std=c++11    -fsigned-char -W -Wall -Wreturn-type -Wnon-virtual-dtor -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations  -Wmissing-prototypes -o CMakeFiles\cmTC_52454.dir\src.cxx.obj -c C:\opencv\CMakeFiles\CMakeTmp\src.cxx
+cc1plus.exe: warning: command line option '-Wmissing-prototypes' is valid for C/ObjC but not for C++
+C:\opencv\CMakeFiles\CMakeTmp\src.cxx:1: warning: ignoring #pragma   [-Wunknown-pragmas]
+ #pragma
+ 
+Failed to create ConsoleBuf!
+setActiveInputCodepage failed!
+Failed to create ConsoleBuf!
+setActiveInputCodepage failed!
+Linking CXX executable cmTC_52454.exe
+"C:\Program Files\CMake\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_52454.dir\link.txt --verbose=1
+Failed to create ConsoleBuf!
+setActiveInputCodepage failed!
+Failed to create ConsoleBuf!
+setActiveInputCodepage failed!
+"C:\Program Files\CMake\bin\cmake.exe" -E rm -f CMakeFiles\cmTC_52454.dir/objects.a
+C:\mingw64\bin\ar.exe qc CMakeFiles\cmTC_52454.dir/objects.a @CMakeFiles\cmTC_52454.dir\objects1.rsp
+C:\mingw64\bin\c++.exe -O3 -DNDEBUG -Wl,--whole-archive CMakeFiles\cmTC_52454.dir/objects.a -Wl,--no-whole-archive -o cmTC_52454.exe -Wl,--out-implib,libcmTC_52454.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_52454.dir\linkLibs.rsp
+mingw32-make.exe[1]: Leaving directory 'C:/opencv/CMakeFiles/CMakeTmp'
+
+
+===== END =====
+
+Build output check failed:
+    Regex: 'command[- ]line option .* is valid for .* but not for C\+\+'
+    Output line: 'cc1plus.exe: warning: command line option '-Wstrict-prototypes' is valid for C/ObjC but not for C++'
+Compilation failed:
+    source file: 'C:/opencv/CMakeFiles/CMakeTmp/src.cxx'
+    check option: ' -fsigned-char -W -Wall -Wreturn-type -Wnon-virtual-dtor -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations  -Wstrict-prototypes'
+===== BUILD LOG =====
+Change Dir: 'C:/opencv/CMakeFiles/CMakeTmp'
+
+Run Build Command(s): "C:/Program Files/CMake/bin/cmake.exe" -E env VERBOSE=1 C:/mingw64/bin/mingw32-make.exe -f Makefile cmTC_dbbde/fast
+C:/mingw64/bin/mingw32-make.exe  -f CMakeFiles\cmTC_dbbde.dir\build.make CMakeFiles/cmTC_dbbde.dir/build
+mingw32-make.exe[1]: Entering directory 'C:/opencv/CMakeFiles/CMakeTmp'
+Failed to create ConsoleBuf!
+setActiveInputCodepage failed!
+Failed to create ConsoleBuf!
+setActiveInputCodepage failed!
+Building CXX object CMakeFiles/cmTC_dbbde.dir/src.cxx.obj
+C:\mingw64\bin\c++.exe   -O3 -DNDEBUG -std=c++11    -fsigned-char -W -Wall -Wreturn-type -Wnon-virtual-dtor -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations  -Wstrict-prototypes -o CMakeFiles\cmTC_dbbde.dir\src.cxx.obj -c C:\opencv\CMakeFiles\CMakeTmp\src.cxx
+cc1plus.exe: warning: command line option '-Wstrict-prototypes' is valid for C/ObjC but not for C++
+C:\opencv\CMakeFiles\CMakeTmp\src.cxx:1: warning: ignoring #pragma   [-Wunknown-pragmas]
+ #pragma
+ 
+Failed to create ConsoleBuf!
+setActiveInputCodepage failed!
+Failed to create ConsoleBuf!
+setActiveInputCodepage failed!
+Linking CXX executable cmTC_dbbde.exe
+"C:\Program Files\CMake\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_dbbde.dir\link.txt --verbose=1
+Failed to create ConsoleBuf!
+setActiveInputCodepage failed!
+Failed to create ConsoleBuf!
+setActiveInputCodepage failed!
+"C:\Program Files\CMake\bin\cmake.exe" -E rm -f CMakeFiles\cmTC_dbbde.dir/objects.a
+C:\mingw64\bin\ar.exe qc CMakeFiles\cmTC_dbbde.dir/objects.a @CMakeFiles\cmTC_dbbde.dir\objects1.rsp
+C:\mingw64\bin\c++.exe -O3 -DNDEBUG -Wl,--whole-archive CMakeFiles\cmTC_dbbde.dir/objects.a -Wl,--no-whole-archive -o cmTC_dbbde.exe -Wl,--out-implib,libcmTC_dbbde.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_dbbde.dir\linkLibs.rsp
+mingw32-make.exe[1]: Leaving directory 'C:/opencv/CMakeFiles/CMakeTmp'
+
+
+===== END =====
+
+Build output check failed:
+    Regex: 'command[- ]line option .* is valid for .* but not for C'
+    Output line: 'cc1.exe: warning: command line option '-Wsign-promo' is valid for C++/ObjC++ but not for C'
+Compilation failed:
+    source file: 'C:/opencv/CMakeFiles/CMakeTmp/src.c'
+    check option: ' -fsigned-char -W -Wall -Wreturn-type -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow  -Wsign-promo'
+===== BUILD LOG =====
+Change Dir: 'C:/opencv/CMakeFiles/CMakeTmp'
+
+Run Build Command(s): "C:/Program Files/CMake/bin/cmake.exe" -E env VERBOSE=1 C:/mingw64/bin/mingw32-make.exe -f Makefile cmTC_e3736/fast
+C:/mingw64/bin/mingw32-make.exe  -f CMakeFiles\cmTC_e3736.dir\build.make CMakeFiles/cmTC_e3736.dir/build
+mingw32-make.exe[1]: Entering directory 'C:/opencv/CMakeFiles/CMakeTmp'
+Failed to create ConsoleBuf!
+setActiveInputCodepage failed!
+Failed to create ConsoleBuf!
+setActiveInputCodepage failed!
+Building C object CMakeFiles/cmTC_e3736.dir/src.c.obj
+C:\mingw64\bin\gcc.exe   -O3 -DNDEBUG    -fsigned-char -W -Wall -Wreturn-type -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow  -Wsign-promo -o CMakeFiles\cmTC_e3736.dir\src.c.obj -c C:\opencv\CMakeFiles\CMakeTmp\src.c
+cc1.exe: warning: command line option '-Wsign-promo' is valid for C++/ObjC++ but not for C
+C:\opencv\CMakeFiles\CMakeTmp\src.c:1: warning: ignoring #pragma   [-Wunknown-pragmas]
+ #pragma
+ 
+Failed to create ConsoleBuf!
+setActiveInputCodepage failed!
+Failed to create ConsoleBuf!
+setActiveInputCodepage failed!
+Linking C executable cmTC_e3736.exe
+"C:\Program Files\CMake\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_e3736.dir\link.txt --verbose=1
+Failed to create ConsoleBuf!
+setActiveInputCodepage failed!
+Failed to create ConsoleBuf!
+setActiveInputCodepage failed!
+"C:\Program Files\CMake\bin\cmake.exe" -E rm -f CMakeFiles\cmTC_e3736.dir/objects.a
+C:\mingw64\bin\ar.exe qc CMakeFiles\cmTC_e3736.dir/objects.a @CMakeFiles\cmTC_e3736.dir\objects1.rsp
+C:\mingw64\bin\gcc.exe -O3 -DNDEBUG -Wl,--whole-archive CMakeFiles\cmTC_e3736.dir/objects.a -Wl,--no-whole-archive -o cmTC_e3736.exe -Wl,--out-implib,libcmTC_e3736.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_e3736.dir\linkLibs.rsp
+mingw32-make.exe[1]: Leaving directory 'C:/opencv/CMakeFiles/CMakeTmp'
+
+
+===== END =====
+
+Build output check failed:
+    Regex: 'command[- ]line option .* is valid for .* but not for C'
+    Output line: 'cc1.exe: warning: command line option '-Wsuggest-override' is valid for C++/ObjC++ but not for C'
+Compilation failed:
+    source file: 'C:/opencv/CMakeFiles/CMakeTmp/src.c'
+    check option: ' -fsigned-char -W -Wall -Wreturn-type -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized  -Wsuggest-override'
+===== BUILD LOG =====
+Change Dir: 'C:/opencv/CMakeFiles/CMakeTmp'
+
+Run Build Command(s): "C:/Program Files/CMake/bin/cmake.exe" -E env VERBOSE=1 C:/mingw64/bin/mingw32-make.exe -f Makefile cmTC_5bdf1/fast
+C:/mingw64/bin/mingw32-make.exe  -f CMakeFiles\cmTC_5bdf1.dir\build.make CMakeFiles/cmTC_5bdf1.dir/build
+mingw32-make.exe[1]: Entering directory 'C:/opencv/CMakeFiles/CMakeTmp'
+Failed to create ConsoleBuf!
+setActiveInputCodepage failed!
+Failed to create ConsoleBuf!
+setActiveInputCodepage failed!
+Building C object CMakeFiles/cmTC_5bdf1.dir/src.c.obj
+C:\mingw64\bin\gcc.exe   -O3 -DNDEBUG    -fsigned-char -W -Wall -Wreturn-type -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized  -Wsuggest-override -o CMakeFiles\cmTC_5bdf1.dir\src.c.obj -c C:\opencv\CMakeFiles\CMakeTmp\src.c
+cc1.exe: warning: command line option '-Wsuggest-override' is valid for C++/ObjC++ but not for C
+C:\opencv\CMakeFiles\CMakeTmp\src.c:1: warning: ignoring #pragma   [-Wunknown-pragmas]
+ #pragma
+ 
+Failed to create ConsoleBuf!
+setActiveInputCodepage failed!
+Failed to create ConsoleBuf!
+setActiveInputCodepage failed!
+Linking C executable cmTC_5bdf1.exe
+"C:\Program Files\CMake\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_5bdf1.dir\link.txt --verbose=1
+Failed to create ConsoleBuf!
+setActiveInputCodepage failed!
+Failed to create ConsoleBuf!
+setActiveInputCodepage failed!
+"C:\Program Files\CMake\bin\cmake.exe" -E rm -f CMakeFiles\cmTC_5bdf1.dir/objects.a
+C:\mingw64\bin\ar.exe qc CMakeFiles\cmTC_5bdf1.dir/objects.a @CMakeFiles\cmTC_5bdf1.dir\objects1.rsp
+C:\mingw64\bin\gcc.exe -O3 -DNDEBUG -Wl,--whole-archive CMakeFiles\cmTC_5bdf1.dir/objects.a -Wl,--no-whole-archive -o cmTC_5bdf1.exe -Wl,--out-implib,libcmTC_5bdf1.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_5bdf1.dir\linkLibs.rsp
+mingw32-make.exe[1]: Leaving directory 'C:/opencv/CMakeFiles/CMakeTmp'
+
+
+===== END =====
+
+Build output check failed:
+    Regex: 'command[- ]line option .* is valid for .* but not for C'
+    Output line: 'cc1.exe: warning: command line option '-Wno-delete-non-virtual-dtor' is valid for C++/ObjC++ but not for C'
+Compilation failed:
+    source file: 'C:/opencv/CMakeFiles/CMakeTmp/src.c'
+    check option: ' -fsigned-char -W -Wall -Wreturn-type -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized  -Wno-delete-non-virtual-dtor'
+===== BUILD LOG =====
+Change Dir: 'C:/opencv/CMakeFiles/CMakeTmp'
+
+Run Build Command(s): "C:/Program Files/CMake/bin/cmake.exe" -E env VERBOSE=1 C:/mingw64/bin/mingw32-make.exe -f Makefile cmTC_9ace5/fast
+C:/mingw64/bin/mingw32-make.exe  -f CMakeFiles\cmTC_9ace5.dir\build.make CMakeFiles/cmTC_9ace5.dir/build
+mingw32-make.exe[1]: Entering directory 'C:/opencv/CMakeFiles/CMakeTmp'
+Failed to create ConsoleBuf!
+setActiveInputCodepage failed!
+Failed to create ConsoleBuf!
+setActiveInputCodepage failed!
+Building C object CMakeFiles/cmTC_9ace5.dir/src.c.obj
+C:\mingw64\bin\gcc.exe   -O3 -DNDEBUG    -fsigned-char -W -Wall -Wreturn-type -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized  -Wno-delete-non-virtual-dtor -o CMakeFiles\cmTC_9ace5.dir\src.c.obj -c C:\opencv\CMakeFiles\CMakeTmp\src.c
+cc1.exe: warning: command line option '-Wno-delete-non-virtual-dtor' is valid for C++/ObjC++ but not for C
+C:\opencv\CMakeFiles\CMakeTmp\src.c:1: warning: ignoring #pragma   [-Wunknown-pragmas]
+ #pragma
+ 
+Failed to create ConsoleBuf!
+setActiveInputCodepage failed!
+Failed to create ConsoleBuf!
+setActiveInputCodepage failed!
+Linking C executable cmTC_9ace5.exe
+"C:\Program Files\CMake\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_9ace5.dir\link.txt --verbose=1
+Failed to create ConsoleBuf!
+setActiveInputCodepage failed!
+Failed to create ConsoleBuf!
+setActiveInputCodepage failed!
+"C:\Program Files\CMake\bin\cmake.exe" -E rm -f CMakeFiles\cmTC_9ace5.dir/objects.a
+C:\mingw64\bin\ar.exe qc CMakeFiles\cmTC_9ace5.dir/objects.a @CMakeFiles\cmTC_9ace5.dir\objects1.rsp
+C:\mingw64\bin\gcc.exe -O3 -DNDEBUG -Wl,--whole-archive CMakeFiles\cmTC_9ace5.dir/objects.a -Wl,--no-whole-archive -o cmTC_9ace5.exe -Wl,--out-implib,libcmTC_9ace5.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_9ace5.dir\linkLibs.rsp
+mingw32-make.exe[1]: Leaving directory 'C:/opencv/CMakeFiles/CMakeTmp'
+
+
+===== END =====
+
+Build output check failed:
+    Regex: 'unrecognized .*option'
+    Output line: 'cc1plus.exe: warning: unrecognized command line option '-Wno-unnamed-type-template-args''
+Compilation failed:
+    source file: 'C:/opencv/CMakeFiles/CMakeTmp/src.cxx'
+    check option: ' -fsigned-char -W -Wall -Wreturn-type -Wnon-virtual-dtor -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Wsuggest-override -Wno-delete-non-virtual-dtor  -Wno-unnamed-type-template-args'
+===== BUILD LOG =====
+Change Dir: 'C:/opencv/CMakeFiles/CMakeTmp'
+
+Run Build Command(s): "C:/Program Files/CMake/bin/cmake.exe" -E env VERBOSE=1 C:/mingw64/bin/mingw32-make.exe -f Makefile cmTC_d5ef6/fast
+C:/mingw64/bin/mingw32-make.exe  -f CMakeFiles\cmTC_d5ef6.dir\build.make CMakeFiles/cmTC_d5ef6.dir/build
+mingw32-make.exe[1]: Entering directory 'C:/opencv/CMakeFiles/CMakeTmp'
+Failed to create ConsoleBuf!
+setActiveInputCodepage failed!
+Failed to create ConsoleBuf!
+setActiveInputCodepage failed!
+Building CXX object CMakeFiles/cmTC_d5ef6.dir/src.cxx.obj
+C:\mingw64\bin\c++.exe   -O3 -DNDEBUG -std=c++11    -fsigned-char -W -Wall -Wreturn-type -Wnon-virtual-dtor -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Wsuggest-override -Wno-delete-non-virtual-dtor  -Wno-unnamed-type-template-args -o CMakeFiles\cmTC_d5ef6.dir\src.cxx.obj -c C:\opencv\CMakeFiles\CMakeTmp\src.cxx
+C:\opencv\CMakeFiles\CMakeTmp\src.cxx:1: warning: ignoring #pragma   [-Wunknown-pragmas]
+ #pragma
+ 
+cc1plus.exe: warning: unrecognized command line option '-Wno-unnamed-type-template-args'
+Failed to create ConsoleBuf!
+setActiveInputCodepage failed!
+Failed to create ConsoleBuf!
+setActiveInputCodepage failed!
+Linking CXX executable cmTC_d5ef6.exe
+"C:\Program Files\CMake\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_d5ef6.dir\link.txt --verbose=1
+Failed to create ConsoleBuf!
+setActiveInputCodepage failed!
+Failed to create ConsoleBuf!
+setActiveInputCodepage failed!
+"C:\Program Files\CMake\bin\cmake.exe" -E rm -f CMakeFiles\cmTC_d5ef6.dir/objects.a
+C:\mingw64\bin\ar.exe qc CMakeFiles\cmTC_d5ef6.dir/objects.a @CMakeFiles\cmTC_d5ef6.dir\objects1.rsp
+C:\mingw64\bin\c++.exe -O3 -DNDEBUG -Wl,--whole-archive CMakeFiles\cmTC_d5ef6.dir/objects.a -Wl,--no-whole-archive -o cmTC_d5ef6.exe -Wl,--out-implib,libcmTC_d5ef6.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_d5ef6.dir\linkLibs.rsp
+mingw32-make.exe[1]: Leaving directory 'C:/opencv/CMakeFiles/CMakeTmp'
+
+
+===== END =====
+
+Build output check failed:
+    Regex: 'unrecognized .*option'
+    Output line: 'cc1.exe: warning: unrecognized command line option '-Wno-unnamed-type-template-args''
+Compilation failed:
+    source file: 'C:/opencv/CMakeFiles/CMakeTmp/src.c'
+    check option: ' -fsigned-char -W -Wall -Wreturn-type -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized  -Wno-unnamed-type-template-args'
+===== BUILD LOG =====
+Change Dir: 'C:/opencv/CMakeFiles/CMakeTmp'
+
+Run Build Command(s): "C:/Program Files/CMake/bin/cmake.exe" -E env VERBOSE=1 C:/mingw64/bin/mingw32-make.exe -f Makefile cmTC_4a858/fast
+C:/mingw64/bin/mingw32-make.exe  -f CMakeFiles\cmTC_4a858.dir\build.make CMakeFiles/cmTC_4a858.dir/build
+mingw32-make.exe[1]: Entering directory 'C:/opencv/CMakeFiles/CMakeTmp'
+Failed to create ConsoleBuf!
+setActiveInputCodepage failed!
+Failed to create ConsoleBuf!
+setActiveInputCodepage failed!
+Building C object CMakeFiles/cmTC_4a858.dir/src.c.obj
+C:\mingw64\bin\gcc.exe   -O3 -DNDEBUG    -fsigned-char -W -Wall -Wreturn-type -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized  -Wno-unnamed-type-template-args -o CMakeFiles\cmTC_4a858.dir\src.c.obj -c C:\opencv\CMakeFiles\CMakeTmp\src.c
+C:\opencv\CMakeFiles\CMakeTmp\src.c:1: warning: ignoring #pragma   [-Wunknown-pragmas]
+ #pragma
+ 
+cc1.exe: warning: unrecognized command line option '-Wno-unnamed-type-template-args'
+Failed to create ConsoleBuf!
+setActiveInputCodepage failed!
+Failed to create ConsoleBuf!
+setActiveInputCodepage failed!
+Linking C executable cmTC_4a858.exe
+"C:\Program Files\CMake\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_4a858.dir\link.txt --verbose=1
+Failed to create ConsoleBuf!
+setActiveInputCodepage failed!
+Failed to create ConsoleBuf!
+setActiveInputCodepage failed!
+"C:\Program Files\CMake\bin\cmake.exe" -E rm -f CMakeFiles\cmTC_4a858.dir/objects.a
+C:\mingw64\bin\ar.exe qc CMakeFiles\cmTC_4a858.dir/objects.a @CMakeFiles\cmTC_4a858.dir\objects1.rsp
+C:\mingw64\bin\gcc.exe -O3 -DNDEBUG -Wl,--whole-archive CMakeFiles\cmTC_4a858.dir/objects.a -Wl,--no-whole-archive -o cmTC_4a858.exe -Wl,--out-implib,libcmTC_4a858.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_4a858.dir\linkLibs.rsp
+mingw32-make.exe[1]: Leaving directory 'C:/opencv/CMakeFiles/CMakeTmp'
+
+
+===== END =====
+
+Compilation failed:
+    source file: 'C:/Users/Daniele/Desktop/opencv-4.8.0/cmake/checks/cpu_avx512.cpp'
+    check option: ' -mavx512f'
+===== BUILD LOG =====
+Change Dir: 'C:/opencv/CMakeFiles/CMakeTmp'
+
+Run Build Command(s): "C:/Program Files/CMake/bin/cmake.exe" -E env VERBOSE=1 C:/mingw64/bin/mingw32-make.exe -f Makefile cmTC_369f0/fast
+C:/mingw64/bin/mingw32-make.exe  -f CMakeFiles\cmTC_369f0.dir\build.make CMakeFiles/cmTC_369f0.dir/build
+mingw32-make.exe[1]: Entering directory 'C:/opencv/CMakeFiles/CMakeTmp'
+Failed to create ConsoleBuf!
+setActiveInputCodepage failed!
+Failed to create ConsoleBuf!
+setActiveInputCodepage failed!
+Building CXX object CMakeFiles/cmTC_369f0.dir/cpu_avx512.cpp.obj
+C:\mingw64\bin\c++.exe   -O3 -DNDEBUG -std=c++11    -mavx512f -o CMakeFiles\cmTC_369f0.dir\cpu_avx512.cpp.obj -c C:\Users\Daniele\Desktop\opencv-4.8.0\cmake\checks\cpu_avx512.cpp
+C:\Users\Daniele\AppData\Local\Temp\ccpqjoCd.s: Assembler messages:
+C:\Users\Daniele\AppData\Local\Temp\ccpqjoCd.s:12: Error: invalid register for .seh_savexmm
+C:\Users\Daniele\AppData\Local\Temp\ccpqjoCd.s:14: Error: invalid register for .seh_savexmm
+C:\Users\Daniele\AppData\Local\Temp\ccpqjoCd.s:16: Error: invalid register for .seh_savexmm
+C:\Users\Daniele\AppData\Local\Temp\ccpqjoCd.s:18: Error: invalid register for .seh_savexmm
+mingw32-make.exe[1]: *** [CMakeFiles\cmTC_369f0.dir\build.make:77: CMakeFiles/cmTC_369f0.dir/cpu_avx512.cpp.obj] Error 1
+mingw32-make.exe[1]: Leaving directory 'C:/opencv/CMakeFiles/CMakeTmp'
+mingw32-make.exe: *** [Makefile:126: cmTC_369f0/fast] Error 2
+
+
+===== END =====
+
+Compilation failed:
+    source file: 'C:/Users/Daniele/Desktop/opencv-4.8.0/cmake/checks/cpu_avx512common.cpp'
+    check option: ' -mavx512f -mavx512cd'
+===== BUILD LOG =====
+Change Dir: 'C:/opencv/CMakeFiles/CMakeTmp'
+
+Run Build Command(s): "C:/Program Files/CMake/bin/cmake.exe" -E env VERBOSE=1 C:/mingw64/bin/mingw32-make.exe -f Makefile cmTC_22efe/fast
+C:/mingw64/bin/mingw32-make.exe  -f CMakeFiles\cmTC_22efe.dir\build.make CMakeFiles/cmTC_22efe.dir/build
+mingw32-make.exe[1]: Entering directory 'C:/opencv/CMakeFiles/CMakeTmp'
+Failed to create ConsoleBuf!
+setActiveInputCodepage failed!
+Failed to create ConsoleBuf!
+setActiveInputCodepage failed!
+Building CXX object CMakeFiles/cmTC_22efe.dir/cpu_avx512common.cpp.obj
+C:\mingw64\bin\c++.exe   -O3 -DNDEBUG -std=c++11    -mavx512f -mavx512cd -o CMakeFiles\cmTC_22efe.dir\cpu_avx512common.cpp.obj -c C:\Users\Daniele\Desktop\opencv-4.8.0\cmake\checks\cpu_avx512common.cpp
+C:\Users\Daniele\AppData\Local\Temp\cc34Vf93.s: Assembler messages:
+C:\Users\Daniele\AppData\Local\Temp\cc34Vf93.s:12: Error: invalid register for .seh_savexmm
+C:\Users\Daniele\AppData\Local\Temp\cc34Vf93.s:14: Error: invalid register for .seh_savexmm
+C:\Users\Daniele\AppData\Local\Temp\cc34Vf93.s:16: Error: invalid register for .seh_savexmm
+C:\Users\Daniele\AppData\Local\Temp\cc34Vf93.s:18: Error: invalid register for .seh_savexmm
+mingw32-make.exe[1]: *** [CMakeFiles\cmTC_22efe.dir\build.make:77: CMakeFiles/cmTC_22efe.dir/cpu_avx512common.cpp.obj] Error 1
+mingw32-make.exe[1]: Leaving directory 'C:/opencv/CMakeFiles/CMakeTmp'
+mingw32-make.exe: *** [Makefile:126: cmTC_22efe/fast] Error 2
+
+
+===== END =====
+
+Compilation failed:
+    source file: 'C:/Users/Daniele/Desktop/opencv-4.8.0/cmake/checks/cpu_avx512skx.cpp'
+    check option: ' -mavx512f -mavx512cd -mavx512vl -mavx512bw -mavx512dq'
+===== BUILD LOG =====
+Change Dir: 'C:/opencv/CMakeFiles/CMakeTmp'
+
+Run Build Command(s): "C:/Program Files/CMake/bin/cmake.exe" -E env VERBOSE=1 C:/mingw64/bin/mingw32-make.exe -f Makefile cmTC_35c77/fast
+C:/mingw64/bin/mingw32-make.exe  -f CMakeFiles\cmTC_35c77.dir\build.make CMakeFiles/cmTC_35c77.dir/build
+mingw32-make.exe[1]: Entering directory 'C:/opencv/CMakeFiles/CMakeTmp'
+Failed to create ConsoleBuf!
+setActiveInputCodepage failed!
+Failed to create ConsoleBuf!
+setActiveInputCodepage failed!
+Building CXX object CMakeFiles/cmTC_35c77.dir/cpu_avx512skx.cpp.obj
+C:\mingw64\bin\c++.exe   -O3 -DNDEBUG -std=c++11    -mavx512f -mavx512cd -mavx512vl -mavx512bw -mavx512dq -o CMakeFiles\cmTC_35c77.dir\cpu_avx512skx.cpp.obj -c C:\Users\Daniele\Desktop\opencv-4.8.0\cmake\checks\cpu_avx512skx.cpp
+C:\Users\Daniele\AppData\Local\Temp\ccWQeq7H.s: Assembler messages:
+C:\Users\Daniele\AppData\Local\Temp\ccWQeq7H.s:12: Error: invalid register for .seh_savexmm
+C:\Users\Daniele\AppData\Local\Temp\ccWQeq7H.s:14: Error: invalid register for .seh_savexmm
+C:\Users\Daniele\AppData\Local\Temp\ccWQeq7H.s:16: Error: invalid register for .seh_savexmm
+C:\Users\Daniele\AppData\Local\Temp\ccWQeq7H.s:18: Error: invalid register for .seh_savexmm
+mingw32-make.exe[1]: *** [CMakeFiles\cmTC_35c77.dir\build.make:77: CMakeFiles/cmTC_35c77.dir/cpu_avx512skx.cpp.obj] Error 1
+mingw32-make.exe[1]: Leaving directory 'C:/opencv/CMakeFiles/CMakeTmp'
+mingw32-make.exe: *** [Makefile:126: cmTC_35c77/fast] Error 2
+
+
+===== END =====
+
+Build output check failed:
+    Regex: 'command[- ]line option .* is valid for .* but not for C'
+    Output line: 'cc1.exe: warning: command line option '-fvisibility-inlines-hidden' is valid for C++/ObjC++ but not for C'
+Compilation failed:
+    source file: 'C:/opencv/CMakeFiles/CMakeTmp/src.c'
+    check option: ' -fsigned-char -W -Wall -Wreturn-type -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden  -fvisibility-inlines-hidden'
+===== BUILD LOG =====
+Change Dir: 'C:/opencv/CMakeFiles/CMakeTmp'
+
+Run Build Command(s): "C:/Program Files/CMake/bin/cmake.exe" -E env VERBOSE=1 C:/mingw64/bin/mingw32-make.exe -f Makefile cmTC_8d4ca/fast
+C:/mingw64/bin/mingw32-make.exe  -f CMakeFiles\cmTC_8d4ca.dir\build.make CMakeFiles/cmTC_8d4ca.dir/build
+mingw32-make.exe[1]: Entering directory 'C:/opencv/CMakeFiles/CMakeTmp'
+Failed to create ConsoleBuf!
+setActiveInputCodepage failed!
+Failed to create ConsoleBuf!
+setActiveInputCodepage failed!
+Building C object CMakeFiles/cmTC_8d4ca.dir/src.c.obj
+C:\mingw64\bin\gcc.exe   -O3 -DNDEBUG    -fsigned-char -W -Wall -Wreturn-type -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden  -fvisibility-inlines-hidden -o CMakeFiles\cmTC_8d4ca.dir\src.c.obj -c C:\opencv\CMakeFiles\CMakeTmp\src.c
+cc1.exe: warning: command line option '-fvisibility-inlines-hidden' is valid for C++/ObjC++ but not for C
+C:\opencv\CMakeFiles\CMakeTmp\src.c:1: warning: ignoring #pragma   [-Wunknown-pragmas]
+ #pragma
+ 
+Failed to create ConsoleBuf!
+setActiveInputCodepage failed!
+Failed to create ConsoleBuf!
+setActiveInputCodepage failed!
+Linking C executable cmTC_8d4ca.exe
+"C:\Program Files\CMake\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_8d4ca.dir\link.txt --verbose=1
+Failed to create ConsoleBuf!
+setActiveInputCodepage failed!
+Failed to create ConsoleBuf!
+setActiveInputCodepage failed!
+"C:\Program Files\CMake\bin\cmake.exe" -E rm -f CMakeFiles\cmTC_8d4ca.dir/objects.a
+C:\mingw64\bin\ar.exe qc CMakeFiles\cmTC_8d4ca.dir/objects.a @CMakeFiles\cmTC_8d4ca.dir\objects1.rsp
+C:\mingw64\bin\gcc.exe -O3 -DNDEBUG -Wl,--whole-archive CMakeFiles\cmTC_8d4ca.dir/objects.a -Wl,--no-whole-archive -o cmTC_8d4ca.exe -Wl,--out-implib,libcmTC_8d4ca.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_8d4ca.dir\linkLibs.rsp
+mingw32-make.exe[1]: Leaving directory 'C:/opencv/CMakeFiles/CMakeTmp'
+
+
+===== END =====
+
+Build output check failed:
+    Regex: 'unrecognized .*option'
+    Output line: 'cc1.exe: warning: unrecognized command line option '-Wno-shorten-64-to-32''
+Compilation failed:
+    source file: 'C:/opencv/CMakeFiles/CMakeTmp/src.c'
+    check option: ' -Wno-shorten-64-to-32'
+===== BUILD LOG =====
+Change Dir: 'C:/opencv/CMakeFiles/CMakeTmp'
+
+Run Build Command(s): "C:/Program Files/CMake/bin/cmake.exe" -E env VERBOSE=1 C:/mingw64/bin/mingw32-make.exe -f Makefile cmTC_a1170/fast
+C:/mingw64/bin/mingw32-make.exe  -f CMakeFiles\cmTC_a1170.dir\build.make CMakeFiles/cmTC_a1170.dir/build
+mingw32-make.exe[1]: Entering directory 'C:/opencv/CMakeFiles/CMakeTmp'
+Failed to create ConsoleBuf!
+setActiveInputCodepage failed!
+Failed to create ConsoleBuf!
+setActiveInputCodepage failed!
+Building C object CMakeFiles/cmTC_a1170.dir/src.c.obj
+C:\mingw64\bin\gcc.exe   -fsigned-char -W -Wall -Wreturn-type -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden  -O3 -DNDEBUG  -DNDEBUG    -Wno-shorten-64-to-32 -o CMakeFiles\cmTC_a1170.dir\src.c.obj -c C:\opencv\CMakeFiles\CMakeTmp\src.c
+C:\opencv\CMakeFiles\CMakeTmp\src.c:1: warning: ignoring #pragma   [-Wunknown-pragmas]
+ #pragma
+ 
+cc1.exe: warning: unrecognized command line option '-Wno-shorten-64-to-32'
+Failed to create ConsoleBuf!
+setActiveInputCodepage failed!
+Failed to create ConsoleBuf!
+setActiveInputCodepage failed!
+Linking C executable cmTC_a1170.exe
+"C:\Program Files\CMake\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_a1170.dir\link.txt --verbose=1
+Failed to create ConsoleBuf!
+setActiveInputCodepage failed!
+Failed to create ConsoleBuf!
+setActiveInputCodepage failed!
+"C:\Program Files\CMake\bin\cmake.exe" -E rm -f CMakeFiles\cmTC_a1170.dir/objects.a
+C:\mingw64\bin\ar.exe qc CMakeFiles\cmTC_a1170.dir/objects.a @CMakeFiles\cmTC_a1170.dir\objects1.rsp
+C:\mingw64\bin\gcc.exe    -fsigned-char -W -Wall -Wreturn-type -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden  -O3 -DNDEBUG  -DNDEBUG   -Wl,--gc-sections  -Wl,--whole-archive CMakeFiles\cmTC_a1170.dir/objects.a -Wl,--no-whole-archive -o cmTC_a1170.exe -Wl,--out-implib,libcmTC_a1170.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_a1170.dir\linkLibs.rsp
+mingw32-make.exe[1]: Leaving directory 'C:/opencv/CMakeFiles/CMakeTmp'
+
+
+===== END =====
+
+Build output check failed:
+    Regex: 'unrecognized .*option'
+    Output line: 'cc1.exe: warning: unrecognized command line option '-Wno-array-parameter''
+Compilation failed:
+    source file: 'C:/opencv/CMakeFiles/CMakeTmp/src.c'
+    check option: ' -Wno-array-parameter'
+===== BUILD LOG =====
+Change Dir: 'C:/opencv/CMakeFiles/CMakeTmp'
+
+Run Build Command(s): "C:/Program Files/CMake/bin/cmake.exe" -E env VERBOSE=1 C:/mingw64/bin/mingw32-make.exe -f Makefile cmTC_bfd42/fast
+C:/mingw64/bin/mingw32-make.exe  -f CMakeFiles\cmTC_bfd42.dir\build.make CMakeFiles/cmTC_bfd42.dir/build
+mingw32-make.exe[1]: Entering directory 'C:/opencv/CMakeFiles/CMakeTmp'
+Failed to create ConsoleBuf!
+setActiveInputCodepage failed!
+Failed to create ConsoleBuf!
+setActiveInputCodepage failed!
+Building C object CMakeFiles/cmTC_bfd42.dir/src.c.obj
+C:\mingw64\bin\gcc.exe   -fsigned-char -W -Wall -Wreturn-type -Waddress -Wsequence-point -Wformat -Wformat-security -Wstrict-prototypes -Winit-self -Wpointer-arith -Wuninitialized -Wno-comment -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -Wno-unused-but-set-variable -Wno-missing-prototypes -Wno-missing-declarations -Wno-undef -Wno-unused -Wno-sign-compare -Wno-cast-align -Wno-shadow -Wno-maybe-uninitialized -Wno-pointer-to-int-cast -Wno-int-to-pointer-cast -Wno-misleading-indentation -Wno-implicit-fallthrough -Wno-unused-parameter  -O3 -DNDEBUG  -DNDEBUG    -Wno-array-parameter -o CMakeFiles\cmTC_bfd42.dir\src.c.obj -c C:\opencv\CMakeFiles\CMakeTmp\src.c
+C:\opencv\CMakeFiles\CMakeTmp\src.c:1: warning: ignoring #pragma   [-Wunknown-pragmas]
+ #pragma
+ 
+cc1.exe: warning: unrecognized command line option '-Wno-array-parameter'
+Failed to create ConsoleBuf!
+setActiveInputCodepage failed!
+Failed to create ConsoleBuf!
+setActiveInputCodepage failed!
+Linking C executable cmTC_bfd42.exe
+"C:\Program Files\CMake\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_bfd42.dir\link.txt --verbose=1
+Failed to create ConsoleBuf!
+setActiveInputCodepage failed!
+Failed to create ConsoleBuf!
+setActiveInputCodepage failed!
+"C:\Program Files\CMake\bin\cmake.exe" -E rm -f CMakeFiles\cmTC_bfd42.dir/objects.a
+C:\mingw64\bin\ar.exe qc CMakeFiles\cmTC_bfd42.dir/objects.a @CMakeFiles\cmTC_bfd42.dir\objects1.rsp
+C:\mingw64\bin\gcc.exe    -fsigned-char -W -Wall -Wreturn-type -Waddress -Wsequence-point -Wformat -Wformat-security -Wstrict-prototypes -Winit-self -Wpointer-arith -Wuninitialized -Wno-comment -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -Wno-unused-but-set-variable -Wno-missing-prototypes -Wno-missing-declarations -Wno-undef -Wno-unused -Wno-sign-compare -Wno-cast-align -Wno-shadow -Wno-maybe-uninitialized -Wno-pointer-to-int-cast -Wno-int-to-pointer-cast -Wno-misleading-indentation -Wno-implicit-fallthrough -Wno-unused-parameter  -O3 -DNDEBUG  -DNDEBUG   -Wl,--gc-sections  -Wl,--whole-archive CMakeFiles\cmTC_bfd42.dir/objects.a -Wl,--no-whole-archive -o cmTC_bfd42.exe -Wl,--out-implib,libcmTC_bfd42.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_bfd42.dir\linkLibs.rsp
+mingw32-make.exe[1]: Leaving directory 'C:/opencv/CMakeFiles/CMakeTmp'
+
+
+===== END =====
+
+Build output check failed:
+    Regex: 'command[- ]line option .* is valid for .* but not for C\+\+'
+    Output line: 'cc1plus.exe: warning: command line option '-Wno-missing-prototypes' is valid for C/ObjC but not for C++'
+Compilation failed:
+    source file: 'C:/opencv/CMakeFiles/CMakeTmp/src.cxx'
+    check option: ' -Wno-missing-prototypes'
+===== BUILD LOG =====
+Change Dir: 'C:/opencv/CMakeFiles/CMakeTmp'
+
+Run Build Command(s): "C:/Program Files/CMake/bin/cmake.exe" -E env VERBOSE=1 C:/mingw64/bin/mingw32-make.exe -f Makefile cmTC_11457/fast
+C:/mingw64/bin/mingw32-make.exe  -f CMakeFiles\cmTC_11457.dir\build.make CMakeFiles/cmTC_11457.dir/build
+mingw32-make.exe[1]: Entering directory 'C:/opencv/CMakeFiles/CMakeTmp'
+Failed to create ConsoleBuf!
+setActiveInputCodepage failed!
+Failed to create ConsoleBuf!
+setActiveInputCodepage failed!
+Building CXX object CMakeFiles/cmTC_11457.dir/src.cxx.obj
+C:\mingw64\bin\c++.exe   -fsigned-char -W -Wall -Wreturn-type -Wnon-virtual-dtor -Waddress -Wsequence-point -Wformat -Wformat-security -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Wsuggest-override -Wno-delete-non-virtual-dtor -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -fvisibility-inlines-hidden -Wno-missing-declarations -Wno-unused-parameter  -O3 -DNDEBUG  -DNDEBUG -std=c++11    -Wno-missing-prototypes -o CMakeFiles\cmTC_11457.dir\src.cxx.obj -c C:\opencv\CMakeFiles\CMakeTmp\src.cxx
+cc1plus.exe: warning: command line option '-Wno-missing-prototypes' is valid for C/ObjC but not for C++
+C:\opencv\CMakeFiles\CMakeTmp\src.cxx:1: warning: ignoring #pragma   [-Wunknown-pragmas]
+ #pragma
+ 
+Failed to create ConsoleBuf!
+setActiveInputCodepage failed!
+Failed to create ConsoleBuf!
+setActiveInputCodepage failed!
+Linking CXX executable cmTC_11457.exe
+"C:\Program Files\CMake\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_11457.dir\link.txt --verbose=1
+Failed to create ConsoleBuf!
+setActiveInputCodepage failed!
+Failed to create ConsoleBuf!
+setActiveInputCodepage failed!
+"C:\Program Files\CMake\bin\cmake.exe" -E rm -f CMakeFiles\cmTC_11457.dir/objects.a
+C:\mingw64\bin\ar.exe qc CMakeFiles\cmTC_11457.dir/objects.a @CMakeFiles\cmTC_11457.dir\objects1.rsp
+C:\mingw64\bin\c++.exe    -fsigned-char -W -Wall -Wreturn-type -Wnon-virtual-dtor -Waddress -Wsequence-point -Wformat -Wformat-security -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Wsuggest-override -Wno-delete-non-virtual-dtor -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -fvisibility-inlines-hidden -Wno-missing-declarations -Wno-unused-parameter  -O3 -DNDEBUG  -DNDEBUG   -Wl,--gc-sections  -Wl,--whole-archive CMakeFiles\cmTC_11457.dir/objects.a -Wl,--no-whole-archive -o cmTC_11457.exe -Wl,--out-implib,libcmTC_11457.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_11457.dir\linkLibs.rsp
+mingw32-make.exe[1]: Leaving directory 'C:/opencv/CMakeFiles/CMakeTmp'
+
+
+===== END =====
+
+Build output check failed:
+    Regex: 'unrecognized .*option'
+    Output line: 'cc1.exe: warning: unrecognized command line option '-Wno-implicit-const-int-float-conversion''
+Compilation failed:
+    source file: 'C:/opencv/CMakeFiles/CMakeTmp/src.c'
+    check option: ' -Wno-implicit-const-int-float-conversion'
+===== BUILD LOG =====
+Change Dir: 'C:/opencv/CMakeFiles/CMakeTmp'
+
+Run Build Command(s): "C:/Program Files/CMake/bin/cmake.exe" -E env VERBOSE=1 C:/mingw64/bin/mingw32-make.exe -f Makefile cmTC_6733e/fast
+C:/mingw64/bin/mingw32-make.exe  -f CMakeFiles\cmTC_6733e.dir\build.make CMakeFiles/cmTC_6733e.dir/build
+mingw32-make.exe[1]: Entering directory 'C:/opencv/CMakeFiles/CMakeTmp'
+Failed to create ConsoleBuf!
+setActiveInputCodepage failed!
+Failed to create ConsoleBuf!
+setActiveInputCodepage failed!
+Building C object CMakeFiles/cmTC_6733e.dir/src.c.obj
+C:\mingw64\bin\gcc.exe   -fsigned-char -W -Wall -Wreturn-type -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden  -O3 -DNDEBUG  -DNDEBUG    -Wno-implicit-const-int-float-conversion -o CMakeFiles\cmTC_6733e.dir\src.c.obj -c C:\opencv\CMakeFiles\CMakeTmp\src.c
+C:\opencv\CMakeFiles\CMakeTmp\src.c:1: warning: ignoring #pragma   [-Wunknown-pragmas]
+ #pragma
+ 
+cc1.exe: warning: unrecognized command line option '-Wno-implicit-const-int-float-conversion'
+Failed to create ConsoleBuf!
+setActiveInputCodepage failed!
+Failed to create ConsoleBuf!
+setActiveInputCodepage failed!
+Linking C executable cmTC_6733e.exe
+"C:\Program Files\CMake\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_6733e.dir\link.txt --verbose=1
+Failed to create ConsoleBuf!
+setActiveInputCodepage failed!
+Failed to create ConsoleBuf!
+setActiveInputCodepage failed!
+"C:\Program Files\CMake\bin\cmake.exe" -E rm -f CMakeFiles\cmTC_6733e.dir/objects.a
+C:\mingw64\bin\ar.exe qc CMakeFiles\cmTC_6733e.dir/objects.a @CMakeFiles\cmTC_6733e.dir\objects1.rsp
+C:\mingw64\bin\gcc.exe    -fsigned-char -W -Wall -Wreturn-type -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden  -O3 -DNDEBUG  -DNDEBUG   -Wl,--gc-sections  -Wl,--whole-archive CMakeFiles\cmTC_6733e.dir/objects.a -Wl,--no-whole-archive -o cmTC_6733e.exe -Wl,--out-implib,libcmTC_6733e.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_6733e.dir\linkLibs.rsp
+mingw32-make.exe[1]: Leaving directory 'C:/opencv/CMakeFiles/CMakeTmp'
+
+
+===== END =====
+
+Build output check failed:
+    Regex: 'unrecognized .*option'
+    Output line: 'cc1.exe: warning: unrecognized command line option '-Wno-null-pointer-subtraction''
+Compilation failed:
+    source file: 'C:/opencv/CMakeFiles/CMakeTmp/src.c'
+    check option: ' -Wno-null-pointer-subtraction'
+===== BUILD LOG =====
+Change Dir: 'C:/opencv/CMakeFiles/CMakeTmp'
+
+Run Build Command(s): "C:/Program Files/CMake/bin/cmake.exe" -E env VERBOSE=1 C:/mingw64/bin/mingw32-make.exe -f Makefile cmTC_1b83a/fast
+C:/mingw64/bin/mingw32-make.exe  -f CMakeFiles\cmTC_1b83a.dir\build.make CMakeFiles/cmTC_1b83a.dir/build
+mingw32-make.exe[1]: Entering directory 'C:/opencv/CMakeFiles/CMakeTmp'
+Failed to create ConsoleBuf!
+setActiveInputCodepage failed!
+Failed to create ConsoleBuf!
+setActiveInputCodepage failed!
+Building C object CMakeFiles/cmTC_1b83a.dir/src.c.obj
+C:\mingw64\bin\gcc.exe   -fsigned-char -W -Wall -Wreturn-type -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -Wno-undef -Wno-cast-align -Wno-implicit-fallthrough -Wno-unused-parameter -Wno-sign-compare -Wno-maybe-uninitialized  -O3 -DNDEBUG  -DNDEBUG    -Wno-null-pointer-subtraction -o CMakeFiles\cmTC_1b83a.dir\src.c.obj -c C:\opencv\CMakeFiles\CMakeTmp\src.c
+C:\opencv\CMakeFiles\CMakeTmp\src.c:1: warning: ignoring #pragma   [-Wunknown-pragmas]
+ #pragma
+ 
+cc1.exe: warning: unrecognized command line option '-Wno-null-pointer-subtraction'
+Failed to create ConsoleBuf!
+setActiveInputCodepage failed!
+Failed to create ConsoleBuf!
+setActiveInputCodepage failed!
+Linking C executable cmTC_1b83a.exe
+"C:\Program Files\CMake\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_1b83a.dir\link.txt --verbose=1
+Failed to create ConsoleBuf!
+setActiveInputCodepage failed!
+Failed to create ConsoleBuf!
+setActiveInputCodepage failed!
+"C:\Program Files\CMake\bin\cmake.exe" -E rm -f CMakeFiles\cmTC_1b83a.dir/objects.a
+C:\mingw64\bin\ar.exe qc CMakeFiles\cmTC_1b83a.dir/objects.a @CMakeFiles\cmTC_1b83a.dir\objects1.rsp
+C:\mingw64\bin\gcc.exe    -fsigned-char -W -Wall -Wreturn-type -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -Wno-undef -Wno-cast-align -Wno-implicit-fallthrough -Wno-unused-parameter -Wno-sign-compare -Wno-maybe-uninitialized  -O3 -DNDEBUG  -DNDEBUG   -Wl,--gc-sections  -Wl,--whole-archive CMakeFiles\cmTC_1b83a.dir/objects.a -Wl,--no-whole-archive -o cmTC_1b83a.exe -Wl,--out-implib,libcmTC_1b83a.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_1b83a.dir\linkLibs.rsp
+mingw32-make.exe[1]: Leaving directory 'C:/opencv/CMakeFiles/CMakeTmp'
+
+
+===== END =====
+
+Build output check failed:
+    Regex: 'unrecognized .*option'
+    Output line: 'cc1plus.exe: warning: unrecognized command line option '-Wno-inconsistent-missing-override''
+Compilation failed:
+    source file: 'C:/opencv/CMakeFiles/CMakeTmp/src.cxx'
+    check option: ' -Wno-inconsistent-missing-override'
+===== BUILD LOG =====
+Change Dir: 'C:/opencv/CMakeFiles/CMakeTmp'
+
+Run Build Command(s): "C:/Program Files/CMake/bin/cmake.exe" -E env VERBOSE=1 C:/mingw64/bin/mingw32-make.exe -f Makefile cmTC_ded3a/fast
+C:/mingw64/bin/mingw32-make.exe  -f CMakeFiles\cmTC_ded3a.dir\build.make CMakeFiles/cmTC_ded3a.dir/build
+mingw32-make.exe[1]: Entering directory 'C:/opencv/CMakeFiles/CMakeTmp'
+Failed to create ConsoleBuf!
+setActiveInputCodepage failed!
+Failed to create ConsoleBuf!
+setActiveInputCodepage failed!
+Building CXX object CMakeFiles/cmTC_ded3a.dir/src.cxx.obj
+C:\mingw64\bin\c++.exe   -fsigned-char -W -Wall -Wreturn-type -Wnon-virtual-dtor -Waddress -Wsequence-point -Wformat -Wformat-security -Winit-self -Wpointer-arith -Wsign-promo -Wno-delete-non-virtual-dtor -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -fvisibility-inlines-hidden -Wno-shadow -Wno-unused -Wno-sign-compare -Wno-undef -Wno-missing-declarations -Wno-uninitialized -Wno-switch -Wno-parentheses -Wno-array-bounds -Wno-extra -Wno-deprecated-declarations -Wno-misleading-indentation -Wno-deprecated -Wno-suggest-override  -O3 -DNDEBUG  -DNDEBUG -std=c++11    -Wno-inconsistent-missing-override -o CMakeFiles\cmTC_ded3a.dir\src.cxx.obj -c C:\opencv\CMakeFiles\CMakeTmp\src.cxx
+C:\opencv\CMakeFiles\CMakeTmp\src.cxx:1: warning: ignoring #pragma   [-Wunknown-pragmas]
+ #pragma
+ 
+cc1plus.exe: warning: unrecognized command line option '-Wno-inconsistent-missing-override'
+Failed to create ConsoleBuf!
+setActiveInputCodepage failed!
+Failed to create ConsoleBuf!
+setActiveInputCodepage failed!
+Linking CXX executable cmTC_ded3a.exe
+"C:\Program Files\CMake\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_ded3a.dir\link.txt --verbose=1
+Failed to create ConsoleBuf!
+setActiveInputCodepage failed!
+Failed to create ConsoleBuf!
+setActiveInputCodepage failed!
+"C:\Program Files\CMake\bin\cmake.exe" -E rm -f CMakeFiles\cmTC_ded3a.dir/objects.a
+C:\mingw64\bin\ar.exe qc CMakeFiles\cmTC_ded3a.dir/objects.a @CMakeFiles\cmTC_ded3a.dir\objects1.rsp
+C:\mingw64\bin\c++.exe    -fsigned-char -W -Wall -Wreturn-type -Wnon-virtual-dtor -Waddress -Wsequence-point -Wformat -Wformat-security -Winit-self -Wpointer-arith -Wsign-promo -Wno-delete-non-virtual-dtor -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -fvisibility-inlines-hidden -Wno-shadow -Wno-unused -Wno-sign-compare -Wno-undef -Wno-missing-declarations -Wno-uninitialized -Wno-switch -Wno-parentheses -Wno-array-bounds -Wno-extra -Wno-deprecated-declarations -Wno-misleading-indentation -Wno-deprecated -Wno-suggest-override  -O3 -DNDEBUG  -DNDEBUG   -Wl,--gc-sections  -Wl,--whole-archive CMakeFiles\cmTC_ded3a.dir/objects.a -Wl,--no-whole-archive -o cmTC_ded3a.exe -Wl,--out-implib,libcmTC_ded3a.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_ded3a.dir\linkLibs.rsp
+mingw32-make.exe[1]: Leaving directory 'C:/opencv/CMakeFiles/CMakeTmp'
+
+
+===== END =====
+
+Build output check failed:
+    Regex: 'unrecognized .*option'
+    Output line: 'cc1plus.exe: warning: unrecognized command line option '-Wno-implicit-const-int-float-conversion''
+Compilation failed:
+    source file: 'C:/opencv/CMakeFiles/CMakeTmp/src.cxx'
+    check option: ' -Wno-implicit-const-int-float-conversion'
+===== BUILD LOG =====
+Change Dir: 'C:/opencv/CMakeFiles/CMakeTmp'
+
+Run Build Command(s): "C:/Program Files/CMake/bin/cmake.exe" -E env VERBOSE=1 C:/mingw64/bin/mingw32-make.exe -f Makefile cmTC_87683/fast
+C:/mingw64/bin/mingw32-make.exe  -f CMakeFiles\cmTC_87683.dir\build.make CMakeFiles/cmTC_87683.dir/build
+mingw32-make.exe[1]: Entering directory 'C:/opencv/CMakeFiles/CMakeTmp'
+Failed to create ConsoleBuf!
+setActiveInputCodepage failed!
+Failed to create ConsoleBuf!
+setActiveInputCodepage failed!
+Building CXX object CMakeFiles/cmTC_87683.dir/src.cxx.obj
+C:\mingw64\bin\c++.exe   -fsigned-char -W -Wall -Wreturn-type -Wnon-virtual-dtor -Waddress -Wsequence-point -Wformat -Wformat-security -Winit-self -Wpointer-arith -Wsign-promo -Wno-delete-non-virtual-dtor -Wno-comment -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -fvisibility-inlines-hidden -Wno-shadow -Wno-unused -Wno-sign-compare -Wno-undef -Wno-missing-declarations -Wno-uninitialized -Wno-switch -Wno-parentheses -Wno-array-bounds -Wno-extra -Wno-deprecated-declarations -Wno-misleading-indentation -Wno-deprecated -Wno-suggest-override -Wno-implicit-fallthrough -Wno-tautological-compare -Wno-reorder -Wno-unused-result  -O3 -DNDEBUG  -DNDEBUG -std=c++11    -Wno-implicit-const-int-float-conversion -o CMakeFiles\cmTC_87683.dir\src.cxx.obj -c C:\opencv\CMakeFiles\CMakeTmp\src.cxx
+C:\opencv\CMakeFiles\CMakeTmp\src.cxx:1: warning: ignoring #pragma   [-Wunknown-pragmas]
+ #pragma
+ 
+cc1plus.exe: warning: unrecognized command line option '-Wno-implicit-const-int-float-conversion'
+Failed to create ConsoleBuf!
+setActiveInputCodepage failed!
+Failed to create ConsoleBuf!
+setActiveInputCodepage failed!
+Linking CXX executable cmTC_87683.exe
+"C:\Program Files\CMake\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_87683.dir\link.txt --verbose=1
+Failed to create ConsoleBuf!
+setActiveInputCodepage failed!
+Failed to create ConsoleBuf!
+setActiveInputCodepage failed!
+"C:\Program Files\CMake\bin\cmake.exe" -E rm -f CMakeFiles\cmTC_87683.dir/objects.a
+C:\mingw64\bin\ar.exe qc CMakeFiles\cmTC_87683.dir/objects.a @CMakeFiles\cmTC_87683.dir\objects1.rsp
+C:\mingw64\bin\c++.exe    -fsigned-char -W -Wall -Wreturn-type -Wnon-virtual-dtor -Waddress -Wsequence-point -Wformat -Wformat-security -Winit-self -Wpointer-arith -Wsign-promo -Wno-delete-non-virtual-dtor -Wno-comment -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -fvisibility-inlines-hidden -Wno-shadow -Wno-unused -Wno-sign-compare -Wno-undef -Wno-missing-declarations -Wno-uninitialized -Wno-switch -Wno-parentheses -Wno-array-bounds -Wno-extra -Wno-deprecated-declarations -Wno-misleading-indentation -Wno-deprecated -Wno-suggest-override -Wno-implicit-fallthrough -Wno-tautological-compare -Wno-reorder -Wno-unused-result  -O3 -DNDEBUG  -DNDEBUG   -Wl,--gc-sections  -Wl,--whole-archive CMakeFiles\cmTC_87683.dir/objects.a -Wl,--no-whole-archive -o cmTC_87683.exe -Wl,--out-implib,libcmTC_87683.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_87683.dir\linkLibs.rsp
+mingw32-make.exe[1]: Leaving directory 'C:/opencv/CMakeFiles/CMakeTmp'
+
+
+===== END =====
+
+Build output check failed:
+    Regex: 'unrecognized .*option'
+    Output line: 'cc1plus.exe: warning: unrecognized command line option '-Wno-tautological-undefined-compare''
+Compilation failed:
+    source file: 'C:/opencv/CMakeFiles/CMakeTmp/src.cxx'
+    check option: ' -Wno-tautological-undefined-compare'
+===== BUILD LOG =====
+Change Dir: 'C:/opencv/CMakeFiles/CMakeTmp'
+
+Run Build Command(s): "C:/Program Files/CMake/bin/cmake.exe" -E env VERBOSE=1 C:/mingw64/bin/mingw32-make.exe -f Makefile cmTC_36b03/fast
+C:/mingw64/bin/mingw32-make.exe  -f CMakeFiles\cmTC_36b03.dir\build.make CMakeFiles/cmTC_36b03.dir/build
+mingw32-make.exe[1]: Entering directory 'C:/opencv/CMakeFiles/CMakeTmp'
+Failed to create ConsoleBuf!
+setActiveInputCodepage failed!
+Failed to create ConsoleBuf!
+setActiveInputCodepage failed!
+Building CXX object CMakeFiles/cmTC_36b03.dir/src.cxx.obj
+C:\mingw64\bin\c++.exe   -fsigned-char -W -Wall -Wreturn-type -Wnon-virtual-dtor -Waddress -Wsequence-point -Wformat -Wformat-security -Winit-self -Wpointer-arith -Wuninitialized -Wsuggest-override -Wno-delete-non-virtual-dtor -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -fvisibility-inlines-hidden -Wno-deprecated -Wno-missing-declarations -Wno-shadow -Wno-unused-parameter -Wno-unused-local-typedefs -Wno-sign-compare -Wno-sign-promo -Wno-undef  -O3 -DNDEBUG  -DNDEBUG -std=c++11    -Wno-tautological-undefined-compare -o CMakeFiles\cmTC_36b03.dir\src.cxx.obj -c C:\opencv\CMakeFiles\CMakeTmp\src.cxx
+C:\opencv\CMakeFiles\CMakeTmp\src.cxx:1: warning: ignoring #pragma   [-Wunknown-pragmas]
+ #pragma
+ 
+cc1plus.exe: warning: unrecognized command line option '-Wno-tautological-undefined-compare'
+Failed to create ConsoleBuf!
+setActiveInputCodepage failed!
+Failed to create ConsoleBuf!
+setActiveInputCodepage failed!
+Linking CXX executable cmTC_36b03.exe
+"C:\Program Files\CMake\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_36b03.dir\link.txt --verbose=1
+Failed to create ConsoleBuf!
+setActiveInputCodepage failed!
+Failed to create ConsoleBuf!
+setActiveInputCodepage failed!
+"C:\Program Files\CMake\bin\cmake.exe" -E rm -f CMakeFiles\cmTC_36b03.dir/objects.a
+C:\mingw64\bin\ar.exe qc CMakeFiles\cmTC_36b03.dir/objects.a @CMakeFiles\cmTC_36b03.dir\objects1.rsp
+C:\mingw64\bin\c++.exe    -fsigned-char -W -Wall -Wreturn-type -Wnon-virtual-dtor -Waddress -Wsequence-point -Wformat -Wformat-security -Winit-self -Wpointer-arith -Wuninitialized -Wsuggest-override -Wno-delete-non-virtual-dtor -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -fvisibility-inlines-hidden -Wno-deprecated -Wno-missing-declarations -Wno-shadow -Wno-unused-parameter -Wno-unused-local-typedefs -Wno-sign-compare -Wno-sign-promo -Wno-undef  -O3 -DNDEBUG  -DNDEBUG   -Wl,--gc-sections  -Wl,--whole-archive CMakeFiles\cmTC_36b03.dir/objects.a -Wl,--no-whole-archive -o cmTC_36b03.exe -Wl,--out-implib,libcmTC_36b03.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_36b03.dir\linkLibs.rsp
+mingw32-make.exe[1]: Leaving directory 'C:/opencv/CMakeFiles/CMakeTmp'
+
+
+===== END =====
+
+Build output check failed:
+    Regex: 'unrecognized .*option'
+    Output line: 'cc1plus.exe: warning: unrecognized command line option '-Wno-shorten-64-to-32''
+Compilation failed:
+    source file: 'C:/opencv/CMakeFiles/CMakeTmp/src.cxx'
+    check option: ' -Wno-shorten-64-to-32'
+===== BUILD LOG =====
+Change Dir: 'C:/opencv/CMakeFiles/CMakeTmp'
+
+Run Build Command(s): "C:/Program Files/CMake/bin/cmake.exe" -E env VERBOSE=1 C:/mingw64/bin/mingw32-make.exe -f Makefile cmTC_2c66f/fast
+C:/mingw64/bin/mingw32-make.exe  -f CMakeFiles\cmTC_2c66f.dir\build.make CMakeFiles/cmTC_2c66f.dir/build
+mingw32-make.exe[1]: Entering directory 'C:/opencv/CMakeFiles/CMakeTmp'
+Failed to create ConsoleBuf!
+setActiveInputCodepage failed!
+Failed to create ConsoleBuf!
+setActiveInputCodepage failed!
+Building CXX object CMakeFiles/cmTC_2c66f.dir/src.cxx.obj
+C:\mingw64\bin\c++.exe   -fsigned-char -W -Wall -Wreturn-type -Wnon-virtual-dtor -Waddress -Wsequence-point -Wformat -Wformat-security -Winit-self -Wpointer-arith -Wuninitialized -Wsuggest-override -Wno-delete-non-virtual-dtor -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -fvisibility-inlines-hidden -Wno-deprecated -Wno-missing-declarations -Wno-shadow -Wno-unused-parameter -Wno-unused-local-typedefs -Wno-sign-compare -Wno-sign-promo -Wno-undef -Wno-ignored-qualifiers -Wno-extra -Wno-unused-function -Wno-unused-const-variable  -O3 -DNDEBUG  -DNDEBUG -std=c++11    -Wno-shorten-64-to-32 -o CMakeFiles\cmTC_2c66f.dir\src.cxx.obj -c C:\opencv\CMakeFiles\CMakeTmp\src.cxx
+C:\opencv\CMakeFiles\CMakeTmp\src.cxx:1: warning: ignoring #pragma   [-Wunknown-pragmas]
+ #pragma
+ 
+cc1plus.exe: warning: unrecognized command line option '-Wno-shorten-64-to-32'
+Failed to create ConsoleBuf!
+setActiveInputCodepage failed!
+Failed to create ConsoleBuf!
+setActiveInputCodepage failed!
+Linking CXX executable cmTC_2c66f.exe
+"C:\Program Files\CMake\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_2c66f.dir\link.txt --verbose=1
+Failed to create ConsoleBuf!
+setActiveInputCodepage failed!
+Failed to create ConsoleBuf!
+setActiveInputCodepage failed!
+"C:\Program Files\CMake\bin\cmake.exe" -E rm -f CMakeFiles\cmTC_2c66f.dir/objects.a
+C:\mingw64\bin\ar.exe qc CMakeFiles\cmTC_2c66f.dir/objects.a @CMakeFiles\cmTC_2c66f.dir\objects1.rsp
+C:\mingw64\bin\c++.exe    -fsigned-char -W -Wall -Wreturn-type -Wnon-virtual-dtor -Waddress -Wsequence-point -Wformat -Wformat-security -Winit-self -Wpointer-arith -Wuninitialized -Wsuggest-override -Wno-delete-non-virtual-dtor -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -fvisibility-inlines-hidden -Wno-deprecated -Wno-missing-declarations -Wno-shadow -Wno-unused-parameter -Wno-unused-local-typedefs -Wno-sign-compare -Wno-sign-promo -Wno-undef -Wno-ignored-qualifiers -Wno-extra -Wno-unused-function -Wno-unused-const-variable  -O3 -DNDEBUG  -DNDEBUG   -Wl,--gc-sections  -Wl,--whole-archive CMakeFiles\cmTC_2c66f.dir/objects.a -Wl,--no-whole-archive -o cmTC_2c66f.exe -Wl,--out-implib,libcmTC_2c66f.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_2c66f.dir\linkLibs.rsp
+mingw32-make.exe[1]: Leaving directory 'C:/opencv/CMakeFiles/CMakeTmp'
+
+
+===== END =====
+
+Build output check failed:
+    Regex: 'unrecognized .*option'
+    Output line: 'cc1plus.exe: warning: unrecognized command line option '-Wno-enum-compare-switch''
+Compilation failed:
+    source file: 'C:/opencv/CMakeFiles/CMakeTmp/src.cxx'
+    check option: ' -Wno-enum-compare-switch'
+===== BUILD LOG =====
+Change Dir: 'C:/opencv/CMakeFiles/CMakeTmp'
+
+Run Build Command(s): "C:/Program Files/CMake/bin/cmake.exe" -E env VERBOSE=1 C:/mingw64/bin/mingw32-make.exe -f Makefile cmTC_9e30f/fast
+C:/mingw64/bin/mingw32-make.exe  -f CMakeFiles\cmTC_9e30f.dir\build.make CMakeFiles/cmTC_9e30f.dir/build
+mingw32-make.exe[1]: Entering directory 'C:/opencv/CMakeFiles/CMakeTmp'
+Failed to create ConsoleBuf!
+setActiveInputCodepage failed!
+Failed to create ConsoleBuf!
+setActiveInputCodepage failed!
+Building CXX object CMakeFiles/cmTC_9e30f.dir/src.cxx.obj
+C:\mingw64\bin\c++.exe   -fsigned-char -W -Wall -Wreturn-type -Wnon-virtual-dtor -Waddress -Wsequence-point -Wformat -Wformat-security -Winit-self -Wpointer-arith -Wuninitialized -Wsuggest-override -Wno-delete-non-virtual-dtor -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -fvisibility-inlines-hidden -Wno-deprecated -Wno-missing-declarations -Wno-shadow -Wno-unused-parameter -Wno-unused-local-typedefs -Wno-sign-compare -Wno-sign-promo -Wno-undef -Wno-ignored-qualifiers -Wno-extra -Wno-unused-function -Wno-unused-const-variable -Wno-invalid-offsetof  -O3 -DNDEBUG  -DNDEBUG -std=c++11    -Wno-enum-compare-switch -o CMakeFiles\cmTC_9e30f.dir\src.cxx.obj -c C:\opencv\CMakeFiles\CMakeTmp\src.cxx
+C:\opencv\CMakeFiles\CMakeTmp\src.cxx:1: warning: ignoring #pragma   [-Wunknown-pragmas]
+ #pragma
+ 
+cc1plus.exe: warning: unrecognized command line option '-Wno-enum-compare-switch'
+Failed to create ConsoleBuf!
+setActiveInputCodepage failed!
+Failed to create ConsoleBuf!
+setActiveInputCodepage failed!
+Linking CXX executable cmTC_9e30f.exe
+"C:\Program Files\CMake\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_9e30f.dir\link.txt --verbose=1
+Failed to create ConsoleBuf!
+setActiveInputCodepage failed!
+Failed to create ConsoleBuf!
+setActiveInputCodepage failed!
+"C:\Program Files\CMake\bin\cmake.exe" -E rm -f CMakeFiles\cmTC_9e30f.dir/objects.a
+C:\mingw64\bin\ar.exe qc CMakeFiles\cmTC_9e30f.dir/objects.a @CMakeFiles\cmTC_9e30f.dir\objects1.rsp
+C:\mingw64\bin\c++.exe    -fsigned-char -W -Wall -Wreturn-type -Wnon-virtual-dtor -Waddress -Wsequence-point -Wformat -Wformat-security -Winit-self -Wpointer-arith -Wuninitialized -Wsuggest-override -Wno-delete-non-virtual-dtor -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -fvisibility-inlines-hidden -Wno-deprecated -Wno-missing-declarations -Wno-shadow -Wno-unused-parameter -Wno-unused-local-typedefs -Wno-sign-compare -Wno-sign-promo -Wno-undef -Wno-ignored-qualifiers -Wno-extra -Wno-unused-function -Wno-unused-const-variable -Wno-invalid-offsetof  -O3 -DNDEBUG  -DNDEBUG   -Wl,--gc-sections  -Wl,--whole-archive CMakeFiles\cmTC_9e30f.dir/objects.a -Wl,--no-whole-archive -o cmTC_9e30f.exe -Wl,--out-implib,libcmTC_9e30f.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_9e30f.dir\linkLibs.rsp
+mingw32-make.exe[1]: Leaving directory 'C:/opencv/CMakeFiles/CMakeTmp'
+
+
+===== END =====
+

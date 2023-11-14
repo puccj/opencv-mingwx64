@@ -1,0 +1,34 @@
+3rdparty/zlib/CMakeFiles/zlib.dir/inftrees.c.obj: \
+ C:\Users\Daniele\Desktop\opencv-4.8.0\3rdparty\zlib\inftrees.c \
+ C:\Users\Daniele\Desktop\opencv-4.8.0\3rdparty\zlib\zutil.h \
+ C:\Users\Daniele\Desktop\opencv-4.8.0\3rdparty\zlib\zlib.h \
+ C:\Users\Daniele\Desktop\opencv-4.8.0\3rdparty\zlib\zconf.h \
+ C:/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/stddef.h \
+ C:/mingw64/x86_64-w64-mingw32/include/stddef.h \
+ C:/mingw64/x86_64-w64-mingw32/include/crtdefs.h \
+ C:/mingw64/x86_64-w64-mingw32/include/_mingw.h \
+ C:/mingw64/x86_64-w64-mingw32/include/_mingw_mac.h \
+ C:/mingw64/x86_64-w64-mingw32/include/_mingw_secapi.h \
+ C:/mingw64/x86_64-w64-mingw32/include/vadefs.h \
+ C:/mingw64/x86_64-w64-mingw32/include/sdks/_mingw_directx.h \
+ C:/mingw64/x86_64-w64-mingw32/include/sdks/_mingw_ddk.h \
+ C:/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed/limits.h \
+ C:/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed/syslimits.h \
+ C:/mingw64/x86_64-w64-mingw32/include/limits.h \
+ C:/mingw64/x86_64-w64-mingw32/include/sys/types.h \
+ C:/mingw64/x86_64-w64-mingw32/include/_mingw_off_t.h \
+ C:/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/stdarg.h \
+ C:/mingw64/x86_64-w64-mingw32/include/stdarg.h \
+ C:/mingw64/x86_64-w64-mingw32/include/_mingw_stdarg.h \
+ C:/mingw64/x86_64-w64-mingw32/include/unistd.h \
+ C:/mingw64/x86_64-w64-mingw32/include/io.h \
+ C:/mingw64/x86_64-w64-mingw32/include/string.h \
+ C:/mingw64/x86_64-w64-mingw32/include/sec_api/string_s.h \
+ C:/mingw64/x86_64-w64-mingw32/include/process.h \
+ C:/mingw64/x86_64-w64-mingw32/include/corecrt_startup.h \
+ C:/mingw64/x86_64-w64-mingw32/include/getopt.h \
+ C:/mingw64/x86_64-w64-mingw32/include/pthread_unistd.h \
+ C:/mingw64/x86_64-w64-mingw32/include/stdlib.h \
+ C:/mingw64/x86_64-w64-mingw32/include/sec_api/stdlib_s.h \
+ C:/mingw64/x86_64-w64-mingw32/include/malloc.h \
+ C:\Users\Daniele\Desktop\opencv-4.8.0\3rdparty\zlib\inftrees.h

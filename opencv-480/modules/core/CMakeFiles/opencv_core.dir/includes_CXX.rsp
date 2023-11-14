@@ -1,0 +1,1 @@
+-I"C:/Users/Daniele/Desktop/opencv-4.8.0/modules/core/include" -IC:/opencv/modules/core -I"C:/Users/Daniele/Desktop/opencv-4.8.0/3rdparty/zlib" -IC:/opencv/3rdparty/zlib -I"C:/Users/Daniele/Desktop/opencv-4.8.0/3rdparty/include/opencl/1.2" -isystem C:/opencv

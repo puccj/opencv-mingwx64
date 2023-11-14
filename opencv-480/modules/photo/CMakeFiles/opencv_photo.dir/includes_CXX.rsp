@@ -1,0 +1,1 @@
+-I"C:/Users/Daniele/Desktop/opencv-4.8.0/modules/photo/include" -IC:/opencv/modules/photo -I"C:/Users/Daniele/Desktop/opencv-4.8.0/modules/core/include" -I"C:/Users/Daniele/Desktop/opencv-4.8.0/modules/imgproc/include" -isystem C:/opencv

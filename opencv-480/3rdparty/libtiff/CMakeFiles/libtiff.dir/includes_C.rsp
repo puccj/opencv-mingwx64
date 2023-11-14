@@ -1,0 +1,1 @@
+-IC:/opencv/3rdparty/zlib -I"C:/Users/Daniele/Desktop/opencv-4.8.0/3rdparty/zlib" -IC:/opencv/3rdparty/libtiff -I"C:/Users/Daniele/Desktop/opencv-4.8.0/3rdparty/libtiff" -I"C:/opencv/3rdparty/libjpeg-turbo" -I"C:/Users/Daniele/Desktop/opencv-4.8.0/3rdparty/libjpeg-turbo/src" -isystem C:/opencv

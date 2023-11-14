@@ -1,0 +1,1 @@
+-I"C:/Users/Daniele/Desktop/opencv-4.8.0/modules/calib3d/include" -IC:/opencv/modules/calib3d -I"C:/Users/Daniele/Desktop/opencv-4.8.0/modules/core/include" -I"C:/Users/Daniele/Desktop/opencv-4.8.0/modules/flann/include" -I"C:/Users/Daniele/Desktop/opencv-4.8.0/modules/imgproc/include" -I"C:/Users/Daniele/Desktop/opencv-4.8.0/modules/features2d/include" -isystem C:/opencv
